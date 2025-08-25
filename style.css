@@ -6,7 +6,15 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in forwards;
   color: #333;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 
 header {
